@@ -132,7 +132,7 @@ Apple Shortcuts Automation
 Image Sent to Raspberry Pi API
       │
       ▼
-Flask Server (Ubuntu)
+FastAPI Server (Ubuntu)
       │
       ▼
 Azure OCR
@@ -161,7 +161,7 @@ This system went through **multiple iterations before reaching stability**.
 ## Pipeline V1
 
 ```
-Photos → Apple OCR → Flask → PostgreSQL
+Photos → Apple OCR → FastAPI → PostgreSQL
 ```
 
 Problems
@@ -194,7 +194,7 @@ Get Photos from WhatsApp Folder
 Apple Shortcuts Loop
         │
         ▼
-Send Image to Flask API
+Send Image to FastAPI API
         │
         ▼
 Azure OCR
@@ -289,7 +289,7 @@ This project demonstrates how **consumer automation tools can power real-world d
 
 ### Backend
 - Python
-- Flask
+- FastAPI
 - PostgreSQL
 
 ### AI / OCR
